@@ -9,7 +9,7 @@ app.get("/",function(req,res){
 });
 
 app.post("/",function(req,res){
-//     console.log(req.body);
+    console.log(req.body);
     var n1 = Number(req.body.num1);
     var n2 = Number(req.body.num2);
     var result = n1+n2;
