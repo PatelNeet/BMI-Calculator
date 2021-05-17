@@ -16,14 +16,6 @@ app.post("/",function(req,res){
     res.send("The answer is "+ result);
 });
 
-// app.get("/about",function(req,res){
-//     res.send("<h1>Neet Patel</h1><p>This is preety hard to understand</p>");
-// });
-
-// app.get("/shapai",function(req,res){
-//     res.send("<h1>ShapAI</h1><p>This is preety hard to understand</p>");
-// });
-
 app.listen(3000, function(){
     console.log("Server has started on port 3000");
 });
